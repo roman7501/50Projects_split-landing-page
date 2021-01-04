@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+body > div {
+  height: 100vh;
+  flex: 1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: flex 1s ease;
+}
+
+body > div:hover {
+  flex: 2;
+}
+
+.playstation {
+  background: url("https://images.unsplash.com/photo-1507457379470-08b800bebc67?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2884&q=80")
+    center;
+  background-size: cover;
+}
+
+.xbox {
+  background: url("https://images.unsplash.com/photo-1606305321490-0c05711a8fb6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2775&q=80")
+    center;
+  background-size: cover;
+}
+
+h2 {
+  margin-top: 300px;
+  font-size: 50px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background: transparent;
+  padding: 20px 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid purple;
+  background: purple;
+}
